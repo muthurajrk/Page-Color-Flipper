@@ -1,0 +1,43 @@
+
+body {
+  margin: 0;
+  font-family:'Apple Chansery', cursive;
+}
+#overall{
+   background-color:#fadafd;
+}
+#heading{
+  text-align:left;
+  margin-bottom:10px;
+  margin-left:15px;
+  color:crimson;
+  font-size:1.5em;
+  border-bottom:2px solid black;
+}
+#color{
+  display:flex;
+  min-width:100px;
+  float:right;
+  margin-right:15px;
+}
+#area{
+  margin: 250px;
+  display:flex;
+  justify-content:center;
+}
+button{
+  font-size:1.2em;
+  color:crimson;
+  text-shadow:1.5px 1.5px 1.5px;
+  background-color:black;
+  padding: 5px;
+  width:100px;
+  border-radius:10px;
+  border:2px solid crimson;
+}
+button:hover{
+  background-color:white;
+}
+button:active{
+  background-color:skyblue;
+}
